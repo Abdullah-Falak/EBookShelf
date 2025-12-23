@@ -56,3 +56,6 @@ CREATE TABLE users (
     password VARCHAR(255) NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+### 4. Setup the Database on MySQL Workbench
+1.  Open **MySQL Workbench** and create database (`http://localhost/eBookShelf/index.html`).
