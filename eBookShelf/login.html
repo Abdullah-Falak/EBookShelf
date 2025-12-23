@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Ebook Shelf</title>
+
+    <link rel="icon" type="image/jpg" href="images/logoo.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo"><a href="index.html">
+            <img src="images/logoo.jpg" alt="Ebook Shelf Logo" style="height: 50px; width: auto;">
+        </a></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="books.html">Books</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="form-wrapper">
+        <h2 style="color: var(--primary-color); margin-bottom: 20px;">Welcome Back</h2>
+        
+        <form action="auth_login.php" method="POST">
+    
+            <input type="email" name="email" placeholder="Email Address" required style="width: 100%; padding: 12px; margin-bottom: 15px; border: 1px solid #ddd; border-radius: 4px;">
+            
+            <input type="password" name="password" placeholder="Password" required style="width: 100%; padding: 12px; margin-bottom: 20px; border: 1px solid #ddd; border-radius: 4px;">
+            
+            <button type="submit" class="btn-signup" style="width: 100%; padding: 12px; border: none; cursor: pointer;">Login</button>
+        </form>
+
+        <p style="margin-top: 20px;">
+            Don't have an account? <a href="signup.html" style="color: var(--accent-color); font-weight: bold;">Sign Up</a>
+        </p>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Ebook Shelf.</p>
+    </footer>
+
+</body>
+</html>
